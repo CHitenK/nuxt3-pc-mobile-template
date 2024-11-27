@@ -14,7 +14,8 @@ import zhCn from 'element-plus/es/locale/lang/zh-cn'
 
 </script>
 
-<!-- 不使用 scoped -->
+<!-- 不使用 scoped  -->
 <style lang="scss">
+/* PC端的公共样式必须包裹在 .cmk-pc-warp */
 @use './style/base.scss';
 </style>

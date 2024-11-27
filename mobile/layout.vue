@@ -16,5 +16,6 @@ import 'vant/lib/index.css';
 
 <!-- 不使用 scoped -->
 <style lang="scss" >
+/* 移动端的公共样式必须包裹在 .cmk-mobile-warp */
 @use './style/base.scss';
 </style>

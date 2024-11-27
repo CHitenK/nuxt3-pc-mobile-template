@@ -1,6 +1,7 @@
-/**
- * 路由表
- **/
+
+/* routers/index.ts */
+
+/* 路由表 */
 
 /* 公共路由 */
 const commonRouters = [
