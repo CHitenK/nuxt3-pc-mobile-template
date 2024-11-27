@@ -1,0 +1,31 @@
+
+/* 移动端的公共样式必须包裹在 .cmk-mobile-warp */
+.cmk-mobile-warp {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 22px;
+
+  /* 水平间隔 */
+  .gutter-h-small {
+    margin-right: 10px;
+  }
+  .gutter-h {
+    margin-right: 20px;
+  }
+  .gutter-h-large {
+    margin-right: 30px;
+  }
+  /* 垂直间隔 */
+  .gutter-v-small {
+    margin-bottom: 10px;
+  }
+  .gutter-v {
+    margin-bottom: 20px;
+  }
+  .gutter-v-large {
+    margin-bottom: 30px;
+  }
+  .gutter-padding {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* flex常用样式 */
+/* // 子元素水平布局 */
+.layout-h {
+  display: flex;
+  flex-direction: row;
+}
+/* // 子元素垂直布局 */
+.layout-v {
+  display: flex;
+  flex-direction: column;
+}
+.layout-h-min {
+  min-width: 100%;
+}
+.layout-v-min {
+  min-height: 100%;
+}
+
+/* // 子元素水平居中布局 */
+.layout-h-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* // 子元素垂直居中布局 */
+.layout-v-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.layout-fill {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+}
+.layout-full {
+  width: 100%;
+  height: 100%;
+}
+/* 与flex配合 */
+/* 子元素居中 */
+.layout-center {
+  justify-content: center;
+  align-items: center;
+}
+.layout-space-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* // 文本省略号 设置宽带否则无效 */
+.text-ellipsis {
+  display: -webkit-box;
+  overflow: hidden; /*超出隐藏*/
+  text-overflow: ellipsis; /*隐藏后添加省略号*/
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;/*  //想显示多少行 */
+}
+
+/** 通过样式使普通输入框模拟密码框，用于防止弹出自动保存密码 */
+.simulate-password {
+  -webkit-text-security: disc;
+}
