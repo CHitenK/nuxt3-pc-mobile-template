@@ -23,11 +23,11 @@ PC端和移动端页面集成模板，基于Nuxt3， Element-Plus、VantUi搭建
 
   --- style/              ---------------------------- 移动端 style
 
-      --- base.scss
+      ------ base.scss
 
   --- views/              ---------------------------- 移动端页面 views
 
-     --- index.vue
+     ----- index.vue
 -
 - PC/                     ---------------------------- PC端资源
 - - | layout.vue          ---------------------------- PC端layout
