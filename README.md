@@ -27,43 +27,51 @@ PC端和移动端页面集成模板，基于Nuxt3， Element-Plus、VantUi搭建
 > > views/              ************ 移动端页面 views
 
 > > > index.vue
--
-- PC/                     ---------------------------- PC端资源
-- - | layout.vue          ---------------------------- PC端layout
-- -
-- - | style/              ---------------------------- PC端 style
-- - - - | base.scss
-- -
-- - | views/              ---------------------------- PC端页面 views
-- - - -| index.vue
--
-- plugins/                ---------------------------- 插件
-- - | flexible.ts
--
-- public/                 ---------------------------- 公共资源
--
-- - | favicon.ico
--
-- routers/                ---------------------------- 自定义路由表
-- - | index.ts
--
-- server/                 ---------------------------- server
-- - | tsconfig.json
--
-- styles/                 ---------------------------- 公共样式
-- - | common.css
--
-- utils/                  ----------------------------- 工具函数
-- - | index.ts
--
-- app.vue                 ----------------------------- 入口
--
-- nuxt.config.ts          ----------------------------- nuxt 配置
--
-- package.json
--
-- tsconfig.json
--
+
+> PC/                     ---------------------------- PC端资源
+
+> > layout.vue          ---------------------------- PC端layout
+
+> > style/              ---------------------------- PC端 style
+
+> > > base.scss
+
+> > views/              ---------------------------- PC端页面 views
+
+> > > index.vue
+
+> plugins/                ---------------------------- 插件
+
+> > flexible.ts
+
+> public/                 ---------------------------- 公共资源
+
+> > favicon.ico
+
+> routers/                ---------------------------- 自定义路由表
+
+> > index.ts
+
+> server/                 ---------------------------- server
+
+> > tsconfig.json
+
+> styles/                 ---------------------------- 公共样式
+
+> >common.css
+
+> utils/                  ----------------------------- 工具函数
+
+> > index.ts
+
+> app.vue                 ----------------------------- 入口
+
+> nuxt.config.ts          ----------------------------- nuxt 配置
+
+> package.json
+
+>  tsconfig.json
+
 
 ## Setup
 
