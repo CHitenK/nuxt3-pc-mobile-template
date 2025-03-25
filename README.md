@@ -4,13 +4,13 @@ PC端和移动端页面集成模板，基于Nuxt3， Element-Plus、VantUi搭建
 
 
 # 项目主要目录结构
-*.nuxt/
+>.nuxt/
 
-* .output/
+> .output/
 
-* app/
+> app/
 
-******router.options.ts      ************ 路由配置
+> >router.options.ts      ************ 路由配置
 
 * layouts/
 
